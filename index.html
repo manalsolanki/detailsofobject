@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <title>Sample of the Image</title>
+</head>
+
+<body>
+    <section class="center">
+        <div class="dropdown">
+            <button class="dropbtn">Objects</button>
+            <div class="dropdown-content">
+                <p id="selectedTank">Tank</p>
+                <p id="selectedFurnace">Furnace </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <article id="tankContainer" class="container">
+            <img id="tank" src="./image/bolted-tanks6.jpg" alt="Image of an tank." />
+            <h4 class="text" id="arrowTank">
+                Hello
+            </h4>
+            <div class="description">
+                <h1 class="heading">Data analysis of a Tank </h1>
+                <p>(Please click on the image to see the values in the table below.)</p>
+                <table>
+                    <tr>
+                        <th>Thickness</th>
+                        <td><span id="thicknessTank"></span> Inch</td>
+                    </tr>
+                    <tr>
+                        <th>Remaining Life</th>
+                        <td><span id="lifeTank"></span> years</td>
+                    </tr>
+                </table>
+            </div>
+        </article>
+        <article id="furnaceContainer" class="container">
+            <img id="furance" src="./image/furance.webp" alt="Image of an tank." />
+            <h4 class="text" id="arrowFurnace"> Hello</h4>
+
+            <div class="description">
+                <h1 class="heading">Data analysis of a Furnace </h1>
+                <p>(Please click on the image to see the values in the table below.)</p>
+                <table>
+                    <tr>
+                        <th>Thickness</th>
+                        <td><span id="thickness"> </span>Inch</td>
+                    </tr>
+                    <tr>
+                        <th>Remaining Life</th>
+                        <td><span id="life"> </span> years</td>
+                    </tr>
+                </table>
+            </div>
+        </article>
+    </section>
+</body>
+<script src="index.js"></script>
+
+</html>
